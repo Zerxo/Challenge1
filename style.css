@@ -1,0 +1,90 @@
+
+body{
+    overflow: hidden;
+    overflow-y: auto;   
+}
+section{
+    min-height: 100vh;
+    width: 100vw;
+}
+
+.start-container{
+    background: url(images/desktop/image-hero.jpg) no-repeat ;
+   background-size: cover;
+   background-position: bottom;
+}
+
+nav .navbar-collapse ul li:hover{
+color:#000
+}
+
+.ourSupports div img{
+    width: 100%;
+}
+
+
+a{
+    color:inherit !important;
+}
+
+
+
+@media(min-width:860px){
+    .text{
+        font-size: 4em !important;
+    }
+    .show-version{
+       position: absolute;
+       right:200px;
+        top:200px;
+    }
+   
+    
+}
+
+.brand-hide{
+    display: none;
+}
+@media(max-width:776px){
+    nav{
+        padding: 3em 2em !important;
+    }
+   
+    .brand-hide{
+        display: block;
+    }
+    .navbar-collapse{
+        background-color: #000;
+        width: 100vw !important;
+        height:100vh;
+        position: fixed;
+        top:0;
+        left:0;
+        z-index: 1;
+    }
+       .navbar-collapse ul{
+           position: relative;
+           top:100px;
+           left:20px
+       }
+    .navbar-collapse ul li{
+        color:#fffd;
+        font-size: 30px;
+    }
+     .navbar-collapse ul li:hover{
+        color:#aaa !important;
+    }
+
+    .brand{
+        z-index: 2;
+    }
+
+    .btn-allCreations{
+        margin-top: 30px;
+        width: 60% !important;
+       order: 3;
+       align-self: center !important;
+    }
+
+    
+}
